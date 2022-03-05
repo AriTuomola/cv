@@ -76,6 +76,8 @@ body
 .contactInfo
 {
     padding-top: 40px;
+    padding-bottom: 30px;
+    border-bottom: 1px solid rgba(255,255,255,0.2);
 }
 .title
 {
@@ -150,10 +152,14 @@ body
     color: #fff;
     font-weight: 300;
 }
+.contactInfo.language
+{
+    border-bottom: none;
+}
 .contactInfo.language .percent
 {
     position: relative;
-    width: 100%;
+    width: 400%;
     height: 6px;
     background: #081921;
     display: block;
